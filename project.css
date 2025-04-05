@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    margin: 0;
+    color: #fff;
+}
+
+.watch {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#timeDisplay {
+    font-size: 3em;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#startBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#startBtn:hover {
+    background-color: #45a049;
+}
+
+#stopBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+#stopBtn:hover {
+    background-color: springgreen;
+}
+
+#resetBtn {
+    background-color: #ff9800;
+    color: white;
+}
+
+#resetBtn:hover {
+    background-color: #f57c00;
+}
